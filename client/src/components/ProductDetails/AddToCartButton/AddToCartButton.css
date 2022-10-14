@@ -1,0 +1,86 @@
+/* ADD TO CART */
+
+.product-aside {
+    position: fixed;
+    right: 3vw;
+    bottom: 2vw;
+    overflow: hidden;
+    z-index: 3;
+    background-color: #141414;
+    width: 25vw;
+    height: 18vw;
+    padding: 3vw 7vw;
+    justify-content: center;
+  }
+  
+  .product-aside__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1vw;
+    background-color: #141414;
+  }
+  
+  .product-aside__select {
+    width: 15vw;
+    height: 3.3vw;
+    font-size: 1.2vw;
+    line-height: 3.2vw;
+    border-style: solid;
+    border-width: 0 0 0.1vw;
+    border-color: #000 #000 #fcf9ee;
+    background-color: transparent;
+    color: #fcf9ee;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    outline: transparent;
+    padding: 8px 12px;
+    appearance: none;
+    cursor: pointer;
+  }
+  
+  .product-aside__select option {
+    color: #141414
+  }
+  
+  .product-aside__select option:disabled {
+    color: #fcf9ee
+  }
+  
+  .select-arrows {
+    display: none;
+  }
+  
+  .select-arrows {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 0.4vw;
+    left: 11.6vw;
+    bottom: 1.8vw;
+  }
+  
+  .select-form-arrow-top,
+  .select-form-arrow-bottom {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 0.2vw;
+  }
+  
+  .product-aside__action-submit {
+    font-size: 1.7vw;
+    line-height: 3vw;
+    color: #fcf9ee;
+    font-weight: 400;
+    letter-spacing: -0.06em;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+  }
+
+  .product-aside__action-submit:hover {
+    text-decoration: underline;
+  }

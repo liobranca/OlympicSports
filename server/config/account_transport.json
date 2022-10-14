@@ -1,0 +1,10 @@
+{
+"service": "gmail",
+"auth": {
+    "type": "OAuth2",
+    "user": "olympicsportsp5@gmail.com",
+    "clientId": "141990687570-mevvjttge2fjf25ljjbjjksnvnvshcgi.apps.googleusercontent.com",
+    "clientSecret": "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",
+    "refreshToken": "1//04kZCGVJG-JnyCgYIARAAGAQSNwF-L9IryIM0bpPqN0OMHlmRpJvt7fkREXyGBkL3UORpNh1d7YfsVAlP59hFzh96WWhbgfLaby4"
+    }
+}
